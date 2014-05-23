@@ -1,0 +1,135 @@
+[[proyectos-introducion]]
+
+////
+a=&#225; e=&#233; i=&#237; o=&#243; u=&#250;
+
+A=&#193; E=&#201; I=&#205; O=&#211; U=&#218;
+
+n=&#241; N=&#209;
+////
+
+== PROYECTOS
+
+=== Pruebas
+
+* https://www.github.com/nelsonjava/pruebas[https://github.com/nelsonjava/pruebas]
+
+* https://read.amazon.com[Amazon Reader]
+
+=== Prioridades
+
+* Crear un jar con las entidades para crear solamente la base de datos y compartirlas para las apliciones en MongoDb nativo y la aplicaci&#243;n web JDF.
+
+* D:\dev\pruebas\naifdb - Pruebas para lograr esta actividad.
+
+* Ejemplo que se esta probando: D:\download\eBooks\mongo\Hibernate Mongo\9781430257943\apps\NetBeans\chapter_6\HOGM_MONGODB_HNAPI_CRUD
+
+* Aplicaci&#243;n de Pruebas = D:\dev\pruebas\RafaEShop
+
+* Aplicaci&#243;n de Prueba: D:\download\eBooks\mongo\Hibernate Mongo\9781430257943\apps\NetBeans\chapter_8\RafaEShop
+
+* Informaci&#243;n importante: DISCO DURO F:\simavirtual\www\naif\modelos
+
+=== Ebooks
+
+* http://ebook.online-convert.com/es/convertir-a-epub[ - Convertir texto al formato ePub para ebook]
+
+* http://www.methods.co.nz/asciidoc/publishing-ebooks-with-asciidoc.html[Generar EPUB]
+
+=== Desarrollo Java
+
+* Hacer pruebas con Openshif si localmente existen problemas
+
+* Mongo
+
+** Caused by: org.jboss.modules.ModuleNotFoundException: Module org.hibernate:ogm is not found in local module loader
+
+*** https://forum.hibernate.org/viewtopic.php?p=2465959[https://forum.hibernate.org/viewtopic.php?p=2465959]
+
+** https://forum.hibernate.org/viewforum.php?f=31[Forum de MongoDb + OGM]
+
+*** https://forum.hibernate.org/viewtopic.php?f=31&t=1027292[Adding persistance.xml for hibernate OGM?]
+
+*** https://forum.hibernate.org/viewtopic.php?f=31&t=1025959[Running OGM in JBoss AS 7.2.0.Final]
+
+** http://hibernate.org/subprojects/ogm.html
+
+*** https://github.com/hibernate/hibernate-ogm
+
+*** https://forum.hibernate.org/viewforum.php?f=31&start=25
+
+** http://www.mongodb.com/presentations/webinar-creaci%C3%B3n-de-su-primera-aplicaci%C3%B3n-java-con-mongodb[Webinar: Creaci&#243;n de su primera aplicaci&#243;n Java con MongoDB]
+
+=== Despligue de Aplicaciones
+
+* http://localhost:8088/
+
+** D:\javasrv\jboss-as-7.1.1.Final\standalone\configuration\standalone.xml
+
+*** <socket-binding name="http" port="8088"/>
+
+* http://localhost:9990/console/
+
+* http://localhost:8088/h2console/
+
+* http://my.safaribooksonline.com/book/databases/9781430257943[Pro Hibernate and MongoDB]
+
+** Codigo del libro:D:\download\eBooks\mongo\Hibernate Mongo
+
+* Build de Ant para el Jboss:D:\dev\tem\buil-jboss
+
+* Maven:
+
+** mvn clean package
+
+** mvn jboss-as:deploy
+
+** mvn clean package jboss-as:deploy
+
+** mvn jboss-as:undeploy
+
+** mvn clean install --debug - Consulta de la Instalación
+
+* Ejemplo a desplegar:D:\dev\tem\mongodb\examples\polyglot-persistence - Llevar en la memoria
+
+=== Recursos
+
+* http://192.168.1.93:8088/naif-rc1/TiposLinksModels.java?tiposLinksModelsId=3[MongoDb]
+
+* http://192.168.1.93:8088/naif-rc1/TiposLinksModelsList.java[Base de Datos de Conocimientos]
+
+* https://ssl.safaribooksonline.com/trial?iid=anon-home-redirect[Safari Books Online] - nelsonfer1@gmail.com - nelsonjava@gmail.com
+
+** Biblioteca libre
+
+* Biblioteca de libros MicroSoft
+
+* https://www.udacity.com - Login - naif.nafg@gmail.com - 64
+
+** Introduction to Computer Science
+
+** Web Development
+
+** Introduction to Programming
+
+** Mobile Web Development
+
+=== Requerimientos NO funcionales
+
+* Mensajeria del Sistema
+
+* Enviar correos
+
+* Leer correos de gmail.com,hotmail camino a comunicaiones unificadas: Utilizar el API de Gmail y otros
+
+* Mensaje de Texto: Mensaje de textos enviados por el sistema en ciertas opciones del sistema
+
+* Base de Datos: Persistencia Polyglota,NoSql
+
+* Compatible con Mobiles: Apple, Android
+
+* Contactos
+
+* Compatiblidad con Verifiquese
+
+* Informes: Excel,pdf,directo a la impresora.
