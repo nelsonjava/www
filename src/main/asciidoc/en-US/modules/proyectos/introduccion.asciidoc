@@ -133,3 +133,5 @@ n=&#241; N=&#209;
 * Compatiblidad con Verifiquese
 
 * Informes: Excel,pdf,directo a la impresora.
+
+* PicketLink
