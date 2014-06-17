@@ -62,7 +62,7 @@ n=&#241; N=&#209;
 
 === Despligue de Aplicaciones
 
-* http://localhost:8088/
+* http://localhost:8080/
 
 ** D:\javasrv\jboss-as-7.1.1.Final\standalone\configuration\standalone.xml
 
@@ -70,7 +70,7 @@ n=&#241; N=&#209;
 
 * http://localhost:9990/console/
 
-* http://localhost:8088/h2console/
+* http://localhost:8080/h2console/
 
 * http://my.safaribooksonline.com/book/databases/9781430257943[Pro Hibernate and MongoDB]
 
